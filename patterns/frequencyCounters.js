@@ -1,6 +1,6 @@
 // Tester Arrays
-let arr1 = [1, 2, 3, 2];
-let arr2 = [9, 1, 4, 4];
+let arg1 = [1, 2, 3, 2];
+let arg2 = [9, 1, 4, 4];
 let arr3 = [1, 2, 3, 2, 5];
 let arr4 = [9, 1, 4, 4, 11];
 
@@ -60,6 +60,6 @@ function same2(arr1, arr2) {
 	return true;
 }
 
-same1(arr1, arr2);
-same2(arr1, arr2);
+same1(arg1, arg2);
+same2(arg1, arg2);
 same2(arr3, arr4);
