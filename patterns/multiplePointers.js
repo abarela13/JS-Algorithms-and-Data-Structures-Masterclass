@@ -34,7 +34,6 @@ function countUniqueValues(arr) {
         if (arr[i] !== arr[j]) {
             i++;
             arr[i] = arr[j];
-
         }
         console.log(i, j);
     }
