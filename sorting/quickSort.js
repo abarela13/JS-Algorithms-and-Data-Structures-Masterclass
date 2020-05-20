@@ -45,8 +45,8 @@ function pivot(arr, start = 0, end = arr.length - 1) {
 /*
  * TESTS CASES
  */
-let input = [5, 1, 8, 11, 6, 2, -3, 4, 7];
-let expected = [-3, 1, 2, 4, 5, 6, 7, 8, 11];
+let input = [57, 1, 8, 11, 6, 2, -13, 214, 187];
+let expected = [-13, 1, 2, 6, 8, 11, 57, 187, 214];
 
 quickSort(input);
 
